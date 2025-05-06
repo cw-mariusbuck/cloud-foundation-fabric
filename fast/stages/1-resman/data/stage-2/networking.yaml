@@ -17,7 +17,7 @@
 short_name: net
 folder_config:
   name: Networking
-  create_env_folders: true
+  create_env_folders: false
   iam_by_principals:
     rw:
       - roles/logging.admin

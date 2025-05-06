@@ -16,9 +16,9 @@
 
 iam.automaticIamGrantsForDefaultServiceAccounts:
   rules:
-    - enforce: true
+    - enforce: false
 
 iam.disableServiceAccountKeyCreation:
   rules:
-    - enforce: true
+    - enforce: false
 

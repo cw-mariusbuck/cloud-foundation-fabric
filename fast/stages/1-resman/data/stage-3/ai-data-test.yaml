@@ -1,0 +1,5 @@
+short_name: aidata
+folder_config:
+  name: demo
+  parent_id: ai-data
+  create_env_folders: false

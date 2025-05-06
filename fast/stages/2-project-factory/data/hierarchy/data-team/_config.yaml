@@ -12,10 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# yaml-language-server: $schema=../../schemas/fast-stage3.schema.json
+# yaml-language-server: $schema=../../../schemas/folder.schema.json
 
-short_name: gke
-environment: dev
-folder_config:
-  name: Development
-  parent_id: gke
+name: Data
+parent: teams
+# iam_by_principals:
+#   "group:team-a-admins@example.com":
+#     - roles/viewer

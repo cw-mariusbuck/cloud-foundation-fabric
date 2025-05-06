@@ -44,7 +44,7 @@ iam.disableAuditLoggingExemption:
 
 iam.disableServiceAccountKeyCreation:
   rules:
-    - enforce: true
+    - enforce: false
 
 iam.disableServiceAccountKeyUpload:
   rules:
@@ -64,4 +64,4 @@ iam.workloadIdentityPoolAwsAccounts:
 iam.workloadIdentityPoolProviders:
   rules:
     - deny:
-        all: true
+        all: false
